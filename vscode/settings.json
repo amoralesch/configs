@@ -3,13 +3,27 @@
   "editor.tabSize": 2,
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
-  "workbench.statusBar.feedback.visible": false,
   "files.exclude": {
-      "**/.classpath": true,
-      "**/.project": true,
-      "**/.settings": true,
-      "**/.factorypath": true
+    "**/.*": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
   },
-  "editor.rulers": [74, 80],
-  "editor.detectIndentation": false
+  "editor.rulers": [
+    74,
+    80
+  ],
+  "editor.detectIndentation": false,
+  "editor.renderControlCharacters": true,
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "editor.wordWrap": "off",
+    "editor.quickSuggestions": false
+  },
+  "terminal.integrated.copyOnSelection": true,
+  "extensions.ignoreRecommendations": true,
+  "files.autoSave": "off",
+  "workbench.editor.enablePreview": false,
+  "explorer.autoReveal": false
 }
