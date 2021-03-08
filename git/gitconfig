@@ -1,0 +1,19 @@
+[user]
+  name = John Doe
+  email = john.doe@ompany.tld
+[core]
+  autocrlf = true
+[fetch]
+  prune = true
+[diff]
+  renamelimit = 1000
+[alias]
+  co = checkout
+  cob = checkout -b
+  st = status
+  pr = pull --rebase
+  rh = reset --hard
+  prune-branches = !git remote prune origin && git branch -vv | grep ': gone]' | awk '{print $1}' | xargs -r git branch -d
+  adog = log --all --decorate --oneline --graph --date-order
+  dog = log --decorate --oneline --graph --date-order
+
