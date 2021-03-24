@@ -8,6 +8,7 @@ code --install-extension eg2.vscode-npm-script
 code --install-extension formulahendry.code-runner
 code --install-extension mariosangiorgio.ledger
 code --install-extension mechatroner.rainbow-csv
+code --install-extension ms-python.python
 code --install-extension ms-vscode.vscode-typescript-tslint-plugin
 code --install-extension redhat.java
 code --install-extension redhat.vscode-yaml
