@@ -1,8 +1,7 @@
 {
   "editor.renderWhitespace": "all",
   "editor.tabSize": 2,
-  "telemetry.enableTelemetry": false,
-  "telemetry.enableCrashReporter": false,
+  "telemetry.telemetryLevel": "off",
   "files.exclude": {
     "**/.*": true,
     "**/.classpath": true,
@@ -19,7 +18,11 @@
   "files.trimTrailingWhitespace": true,
   "[markdown]": {
     "editor.wordWrap": "off",
-    "editor.quickSuggestions": false
+    "editor.quickSuggestions": {
+      "other": false,
+      "comments": false,
+      "strings": false
+    }
   },
   "terminal.integrated.copyOnSelection": true,
   "extensions.ignoreRecommendations": true,
