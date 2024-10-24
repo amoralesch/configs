@@ -16,4 +16,4 @@
   prune-branches = !git remote prune origin && git branch -vv | grep ': gone]' | awk '{print $1}' | xargs -r git branch -d
   adog = log --all --decorate --oneline --graph --date-order
   dog = log --decorate --oneline --graph --date-order
-
+  spp = !git stash -m 'temp storage for PR' && git pull --rebase && git stash pop
